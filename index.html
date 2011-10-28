@@ -1,0 +1,27 @@
+<html>
+<head>
+    <style>
+        body, html { font-family: verdana; font-size: 9pt; }
+        table { font-size: 9pt; }
+        table td, th { margin: 2px; }
+        table th { background-color: #BCD1DA; }
+        table td { background-color: #EEEEEE; }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Latency (last 24 hours)</th>
+        </tr>
+        <tr>
+            <td>GeoChat (XMPP)</td>
+            <td><img src="http://chart.googleapis.com/chart?chs=200x30&cht=ls&chco=0077CC&chd=t:{{ xmpp }}"></td>
+        </tr>
+        <tr>
+            <td>GeoChat (Mail)</td>
+            <td><img src="http://chart.googleapis.com/chart?chs=200x30&cht=ls&chco=0077CC&chd=t:{{ mail }}"></td>
+        </tr>
+    </table>
+</body>
+</html>
