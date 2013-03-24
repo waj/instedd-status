@@ -3,9 +3,9 @@ cron:
       url: /tasks/ping_geochat_xmpp
       schedule: every 5 minutes
 
-    - description: Ping GeoChat by Mail
-      url: /tasks/ping_geochat_mail
-      schedule: every 5 minutes
+#    - description: Ping GeoChat by Mail
+#      url: /tasks/ping_geochat_mail
+#      schedule: every 5 minutes
 
     - description: Send Alerts
       url: /tasks/alert
