@@ -81,7 +81,8 @@ class PingGeoChatMail(webapp.RequestHandler):
 
 class Alert(webapp.RequestHandler):
     def get(self):
-        for stat in ['GeoChat (XMPP)', 'GeoChat (Mail)']:
+        # for stat in ['GeoChat (XMPP)', 'GeoChat (Mail)']:
+        for stat in ['GeoChat (XMPP)']:
             stats = stats_for(stat, 2)
             if stats[0] > 60 and stats[1] > 60:
                 mail.send_mail(sender='test@insteddstatus.appspotmail.com',
